@@ -1,0 +1,4 @@
+- run `make setup` to setup the environment.
+- run `make train` to train the model. The hyperparameters can be modified in `./rl-baselines3-zoo/hyperparams/dqn.yml`
+- run `make evaluate` to evaluate the model.
+- run `make publish` to publish the model to huggingface, change the username after parameter `-orga`.
